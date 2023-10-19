@@ -19,5 +19,14 @@ jobs:
     steps:
       - name: teste
         run: echo Iniciando Teste...
+  build:
+    needs: compile
+    runs-on: ubuntu-latest
+    steps:
+      - name: teste
+        run: echo Iniciando Teste...
+
+
+        
   
     
